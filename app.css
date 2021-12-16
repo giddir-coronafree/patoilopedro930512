@@ -1,0 +1,3332 @@
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  /* overflow: hidden; */
+}
+
+.gdd-greenspan {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1ccc6d+1,1ccca2+100 */
+  background: #1ccc6d; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ccc6d', endColorstr='#1ccca2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  text-align: center;
+}
+.mainLayerSvelte {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  display: flex;
+  position: relative;
+}
+.coronaFreeLogoSvelte {
+  width: 300px;
+  position: absolute;
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+}
+.svelteLayerOne {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  height: 100vh;
+  width: 100%;
+}
+.svelteLayerTwo {
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+  margin-top: 16rem;
+}
+.svelteTitleOne {
+  font-size: 2rem /* 30px */;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  color: rgba(17, 24, 39, 1);
+}
+.svelteDescriptionOne {
+  margin-top: 1rem;
+  color: rgba(107, 114, 128, 1);
+}
+.svelteButtonContainer {
+  display: flex;
+  flex-direction: column;
+}
+.svelteButton {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  border-style: solid;
+  padding-left: 1.5rem /* 24px */;
+  padding-right: 1.5rem /* 24px */;
+  padding-top: 0.75rem /* 12px */;
+  padding-bottom: 0.75rem /* 12px */;
+  margin-top: 2rem /* 32px */;
+  border-width: 1px;
+  border-color: rgba(209, 213, 219, 1);
+  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  font-size: 1rem /* 16px */;
+  line-height: 1.5rem /* 24px */;
+  font-weight: 500;
+  border-radius: 0.375rem /* 6px */;
+  color: rgba(55, 65, 81, 1);
+  background-color: rgba(255, 255, 255, 1);
+}
+.svelteButton:hover {
+  --tw-bg-opacity: 1;
+  text-decoration: none;
+  color: #000000;
+  background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
+}
+.sveltebuttonIcon {
+  margin-right: 0.75rem /* 12px */;
+  margin-left: -0.25rem /* -4px */;
+  height: 1.75rem /* 28px */;
+  width: 1.75rem /* 28px */;
+  color: rgba(5, 150, 105, 1);
+}
+.svelteButtonText {
+  margin-right: auto;
+}
+.svelteCopyright {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem /* 24px */;
+  margin-bottom: 1.5rem /* 24px */;
+  color: rgba(107, 114, 128, 1);
+}
+.svelteBgImageContainer {
+  display: none;
+}
+.coronaFreeBackgroundImage {
+  background-color: rgba(243, 244, 246, 1);
+  height: 100vh;
+  object-fit: cover;
+}
+.svelteSvgStyles {
+  height: 1.5rem /* 24px */;
+  width: 1.5rem /* 24px */;
+}
+@media (min-width: 1280px) {
+  .svelteBgImageContainer {
+    display: flex;
+  }
+}
+.gdd-login-frame {
+  text-align: center;
+}
+
+.reg-start .alert p {
+  font-size: 1.5vh;
+}
+
+.reg-start .alert h4 {
+  font-size: 2vh;
+}
+
+.gdd-redspan {
+  background-color: #f00;
+}
+
+.gdd-login-container {
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.gdd-coronafree-logo-text {
+  font-family: Comfortaa;
+}
+
+.gdd-login-form-link {
+  color: #454545;
+}
+
+.gdd-login-form-link:hover {
+  color: #454545;
+}
+
+/* .gdd-login-footer {
+    color: #fff;
+    background-image: url(/assets/SMB\ cloud\ icon.png);
+    background-repeat: no-repeat;
+    background-size: 22%;
+    background-position: 96%;
+    background-color: #545454 !important;
+} */
+
+.gdd-login-logo {
+  width: 12rem;
+}
+
+.gdd-smb-icon {
+  width: 1.5rem;
+}
+
+.gdd-login-select {
+  width: 30rem;
+  padding-bottom: 2rem;
+  display: inline-block;
+  text-align: left;
+}
+
+.gdd-login-card {
+  -webkit-box-shadow: 0px 0px 24px 0px rgba(136, 136, 136, 1);
+  -moz-box-shadow: 0px 0px 24px 0px rgba(136, 136, 136, 1);
+  box-shadow: 0px 0px 24px 0px rgba(136, 136, 136, 1);
+
+  width: 30rem;
+  border-radius: 10px;
+  margin: 0px;
+  text-align: left;
+  font-family: "Inter";
+}
+
+.gdd-login-body {
+  padding: 0.75rem 3rem !important;
+}
+
+.gdd-login-header {
+  border: none;
+  background-color: #fff;
+  color: #000;
+  font-size: 18pt;
+  padding: 2rem 3rem 0.75rem 3rem !important;
+}
+
+.gdd-login-footer,
+.gdd-login-footer-sab {
+  color: #000;
+  background-color: #fff;
+  border: none;
+  padding: 0.75rem 3rem 2rem 3rem !important;
+}
+
+.gdd-login-footer-sab {
+  background-image: url(/assets/SMB\ cloud\ icon.png);
+  background-repeat: no-repeat;
+  /*background-position: right;*/
+  background-size: 15%;
+  background-position-x: 88%;
+  background-position-y: 30%;
+}
+
+.gdd-login-page-apb {
+  font-size: 10pt;
+  color: #444;
+}
+
+.gdd-login-copy {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  text-align: center;
+  color: #999;
+  line-height: 2.5rem;
+}
+
+.gdd-navbar-open {
+  /* background: #1ccc6d;
+    background: -moz-linear-gradient(45deg,  #1ccc6d 1%, #1ccca2 100%);
+    background: -webkit-linear-gradient(45deg,  #1ccc6d 1%,#1ccca2 100%);
+    background: linear-gradient(45deg,  #1ccc6d 1%,#1ccca2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ccc6d', endColorstr='#1ccca2',GradientType=1 ); */
+
+  background-color: #fff;
+
+  width: 16rem;
+
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  z-index: 90;
+  padding-top: 2.7rem;
+}
+
+.gdd-nav-orgselect {
+  position: absolute;
+  bottom: 0;
+  padding: 4rem 2rem;
+}
+
+.gdd-navbar-closed {
+  background: #1ccc6d; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ccc6d', endColorstr='#1ccca2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  width: 60px;
+
+  -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.63);
+  box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.63);
+}
+
+.gdd-topbar {
+  /* color: #fff;
+
+    background: #1ccc6d;
+    background: -moz-linear-gradient(45deg,  #1ccc6d 1%, #1ccca2 100%);
+    background: -webkit-linear-gradient(45deg,  #1ccc6d 1%,#1ccca2 100%);
+    background: linear-gradient(45deg,  #1ccc6d 1%,#1ccca2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ccc6d', endColorstr='#1ccca2',GradientType=1 );
+     */
+
+  color: #454545;
+  background: #fff;
+
+  height: 40px;
+
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+
+  margin-left: -15px;
+
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+
+.gdd-topbar-orgselect {
+  padding: 0px 2rem;
+  float: right;
+}
+
+.gdd-topbar-helpicon {
+  padding: 0px 0.1rem;
+  float: right;
+}
+
+.gdd-login-textbox {
+  background-color: #c8c8c8 !important;
+}
+
+a.gdd-link-button,
+a.gdd-link-button:hover,
+.gdd-topbar-user-info > a,
+.gdd-topbar-user-info > a:hover {
+  text-decoration: none;
+}
+
+.gdd-topbar-user-info > a,
+.gdd-topbar-user-info > a:hover {
+  color: #454545;
+}
+
+.gdd-navbar-icon {
+  right: 0.6rem;
+  top: 3rem;
+  position: absolute;
+  color: #454545;
+  font-size: 2.5rem;
+}
+
+.gdd-button-icon {
+  font-size: 1.4rem;
+}
+
+.gdd-invalid-icon {
+  color: #f00;
+}
+
+.gdd-icon-append {
+  padding: 0 0.3rem 0 0.5rem;
+  display: inline-block;
+}
+
+.gdd-valid-icon {
+  color: #1ccc6d;
+}
+
+.gdd-icon-button {
+  padding: 0.3rem !important;
+}
+
+div.gdd-result-buttons {
+  background-color: #ffffff99;
+  margin: -0.2rem;
+  padding: 0.2rem 0.5rem;
+  display: inline-block;
+  border-radius: 0.375rem;
+}
+
+div.gdd-result-buttons-empty {
+  margin: -0.2rem;
+  padding: 0.2rem 0.5rem;
+  display: inline-block;
+  border-radius: 0.375rem;
+  height: 2.65rem;
+}
+
+.gdd-test-result-button-negative,
+.gdd-test-result-button-inconclusive,
+.gdd-test-result-button-positive,
+.gdd-test-result-button-gray {
+  color: #fff;
+  text-align: center;
+  border: 0px !important;
+}
+
+.gdd-test-result-button-negative {
+  background: #090 !important;
+}
+
+.gdd-test-result-button-inconclusive {
+  background: #da0 !important;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.gdd-test-result-button-positive {
+  background: #b00 !important;
+}
+
+.gdd-test-result-button-gray {
+  background: #454545 !important;
+}
+
+.gdd-medium-info-action-button {
+  font-size: 1rem !important;
+  height: 1.5rem !important;
+  width: 1.5rem !important;
+  padding: 0px !important;
+  color: #fff;
+  text-align: center;
+  border: 0px !important;
+  background: #888 !important;
+  margin-left: 0.5rem;
+}
+
+.gdd-medium-info-action-button i {
+  margin: auto;
+}
+
+.gdd-patient-looked-up-container {
+  border-radius: 0.25rem;
+  border: solid 1px rgb(206, 212, 218);
+  padding: 0.5rem;
+  background-color: rgba(233, 236, 239);
+}
+
+.gdd-patient-looked-up {
+  margin-top: 0.125rem;
+  margin-bottom: 0.125rem;
+  margin-left: 15px;
+  color: rgb(108, 117, 125);
+}
+
+.gdd-topbar-icon {
+  position: relative;
+  color: #1ccc6d;
+  font-size: 20px;
+}
+
+.gdd-topbar-link-icon {
+  position: relative;
+  color: #6c757d;
+  font-size: 20px;
+}
+
+.gdd-topbar-link-icon:hover {
+  color: #1ccc6d;
+}
+
+.gdd-topbar-logo {
+  position: relative;
+  top: 0px;
+  left: 70px;
+  height: 20px;
+}
+
+.gdd-header-icon {
+  color: #1ccc6d;
+  font-size: 2rem;
+}
+
+.gdd-header-icon-red {
+  color: #f00;
+}
+
+.gdd-hidden-input {
+  height: 0px;
+  width: 0px;
+  border: none;
+  padding: 0px;
+  position: absolute;
+}
+
+.gdd-hidden-input:focus,
+.gdd-hidden-input:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.gdd-topbar-select {
+  width: 18rem !important;
+  margin: -2px 0px 0px 0px !important;
+}
+
+.gdd-grid-col {
+  width: 70%;
+  min-width: fit-content;
+  display: inline-block;
+}
+
+.gdd-grid-card {
+  -webkit-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+
+  border-radius: 0.25rem;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.gdd-collapsible-card {
+  -webkit-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+
+  border-radius: 0.25rem;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+.gdd-collapse-toggle-icon {
+  position: relative;
+  color: #1ccc6d;
+  font-size: 1.2rem;
+  cursor: pointer;
+  /* top: 0rem;
+    left: calc(100% - 1.2rem); */
+  display: flex;
+  float: right;
+}
+
+.gdd-topbar-icon-black {
+  position: relative;
+  color: #454545;
+  font-size: 26px;
+}
+.gdd-topbar-user-info {
+  font-family: "Inter";
+  color: #454545;
+  display: inline-block;
+  float: right;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+
+.gdd-topbar-user-info-dropdown {
+  border: none !important;
+
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.gdd-topbar-user-info-dropdown-toggle-div {
+  padding-top: 100px;
+}
+
+.gdd-topbar-user-info-dropdown-toggle {
+  display: inline-block;
+  padding-left: 0.7rem;
+  padding-right: 0.5rem;
+}
+
+.gdd-nav {
+  /* padding-left: 20px !important; */
+  margin-top: 4rem;
+}
+
+.gdd-nav-link,
+.gdd-nav-link:hover {
+  color: #454545;
+  font-family: "Inter";
+  font-size: 16px;
+  border-radius: 0px !important;
+  padding-left: 2rem !important;
+}
+
+.gdd-nav-link:hover {
+  background-color: #eee;
+}
+
+.gdd-nav-link-selected,
+.nav-pills .nav-link.active {
+  background: #1ccc6d; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ccc6d', endColorstr='#1ccca2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.gdd-grid-icon {
+  font-size: 1rem;
+}
+
+.gdd-grid-icon-red {
+  color: #f00;
+}
+
+.gdd-grid-icon-green {
+  color: #1ccc6d;
+}
+
+.gdd-bg-green {
+  background-color: #1ccc6d;
+  color: #fff;
+}
+
+.gdd-bg-yellow {
+  background-color: rgb(255, 230, 0);
+}
+
+.gdd-pill {
+  font-family: "Inter var", sans-serif;
+  font-weight: bold;
+  font-size: 100% !important;
+}
+
+.gdd-grid-icon-yellow {
+  color: rgb(255, 230, 0);
+}
+
+.gdd-grid-icon-orange {
+  color: rgb(255, 123, 0);
+}
+
+td.gdd-grid-cell-first {
+  position: relative;
+  width: 1.5em;
+  border-bottom-left-radius: 0.5em;
+  border-top-left-radius: 0.5em;
+}
+
+td.gdd-grid-cell-last {
+  position: relative;
+  width: 1.5em;
+  border-bottom-right-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+td.gdd-grid-cell,
+td.gdd-grid-cell-last,
+td.gdd-grid-cell-first {
+  text-align: left;
+  vertical-align: middle;
+}
+
+td.gdd-grid-cell,
+th.gdd-grid-header-cell {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  white-space: nowrap;
+}
+
+td.gdd-grid-cell-center,
+th.gdd-grid-cell-center {
+  text-align: center;
+}
+
+td.gdd-grid-cell-right,
+th.gdd-grid-cell-right {
+  text-align: right;
+}
+
+tr.gdd-grid-row:hover {
+  background: #1ccc6d; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #1ccc6d40 1%,
+    #1ccca240 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #1ccc6d40 1%,
+    #1ccca240 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #1ccc6d40 1%,
+    #1ccca240 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ccc6d40', endColorstr='#1ccca240',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  cursor: pointer;
+}
+
+tr.gdd-grid-row {
+  background-color: #fff;
+  border-radius: 0.25em;
+
+  -webkit-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+span.gdd-timeline-date {
+  margin-left: 10px;
+  color: rgb(108, 117, 125);
+}
+
+div.gdd-medium-info {
+  border-radius: 0.25em;
+  /* background-color: rgb(241, 244, 247); */
+  background-color: #fff;
+  -webkit-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  margin-bottom: 15px;
+  color: rgb(108, 117, 125);
+}
+
+div.gdd-medium-info-clickable:hover {
+  background: #1ccc6d; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #1ccc6d40 1%,
+    #1ccca240 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #1ccc6d40 1%,
+    #1ccca240 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #1ccc6d40 1%,
+    #1ccca240 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ccc6d40', endColorstr='#1ccca240',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  cursor: pointer;
+}
+
+table.gdd-grid {
+  border-collapse: separate;
+  border-spacing: 0 0.25em;
+  /*display: inline-block;*/
+  width: 100%;
+}
+
+div.gdd-patient-info {
+  background-color: #e3e3e3;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  padding: 1em 3em;
+  color: #454545;
+  text-align: center;
+  z-index: 90;
+
+  -webkit-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.gdd-patient-info td {
+  padding: 0 0.75rem;
+  font-size: 1.2rem;
+}
+
+.gdd-patient-info-icon {
+  font-size: 3rem;
+}
+
+.gdd-pagination-div {
+  position: relative;
+  height: 2rem;
+}
+
+.gdd-pagination {
+  display: inline-flex !important;
+  position: relative;
+  right: 0px;
+  float: right;
+
+  background-color: #fff;
+  border-radius: 0.5em !important;
+
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.page-link {
+  /* border-radius: 0.5em !important; */
+  border: none !important;
+  background-color: #ffffff00 !important;
+}
+
+.page-item:first-child {
+  position: relative;
+  width: 1.5em;
+  border-bottom-left-radius: 0.5em;
+  border-top-left-radius: 0.5em;
+}
+
+.page-item:last-child {
+  position: relative;
+  width: 1.5em;
+  border-bottom-right-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+.pagination > .page-item > .page-link {
+  color: #1ccc6d;
+}
+
+.pagination > .page-item.active > .page-link {
+  /* background-color: #1ccc6d;     */
+  border-color: #1ccc6d;
+
+  background: #1ccc6d; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ccc6d', endColorstr='#1ccca2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.gdd-case-accordion .card {
+  border-radius: 0rem;
+}
+
+.gdd-case-accordion .card-header:first-child {
+  border-radius: 0rem;
+}
+
+.gdd-case-accordion .card-header {
+  background-color: #e3e3e3;
+  color: #454545;
+}
+
+.gdd-case-accordion button {
+  border: none;
+  text-align: left;
+  background-color: #ffffff00;
+  padding: 0px;
+}
+
+.gdd-case-header-infoitem {
+  display: inline-block;
+  padding-right: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.gdd-highlighted {
+  background-color: #ffd900;
+}
+
+.gdd-case-header-refinfo {
+  font-size: 0.75rem;
+  text-align: left;
+}
+
+.gdd-sample-value {
+  border: 2px solid #1ccc6d !important;
+  background-color: #fff !important;
+}
+
+.gdd-medical-record-entry button,
+.gdd-cert-submit,
+.btn-primary {
+  background: #1ccc6d; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ccc6d', endColorstr='#1ccca2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  padding: 0.375rem 0.75rem !important;
+
+  border: 1px solid #1ccc6d !important;
+}
+
+.gdd-medical-record-entry button:hover,
+.gdd-cert-submit:hover,
+.btn-primary:hover {
+  background: #4c996f; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #4c996f 1%,
+    #4c9993 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #4c996f 1%,
+    #78807e 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #4c996f 1%,
+    #4c9993 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c996f', endColorstr='#4c9993',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  border: 1px solid #4c996f !important;
+}
+
+.gdd-cert-cancel {
+  padding: 0.375rem 0.75rem !important;
+}
+
+.gdd-smb-button {
+  background-color: #8bc641 !important;
+  padding: 0.375rem 0.75rem !important;
+  border: 1px solid #8bc641 !important;
+  background-image: none;
+}
+
+.gdd-medical-record-entry button:focus,
+.gdd-cert-submit:focus,
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(28, 204, 109, 0.5) !important;
+}
+
+.dropdown-item:hover {
+  background: #1ccc6d40; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #1ccc6d40 1%,
+    #1ccca240 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #1ccc6d40 1%,
+    #1ccca240 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #1ccc6d40 1%,
+    #1ccca240 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ccc6d40', endColorstr='#1ccca240',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.gdd-medical-record-entry-text {
+  padding: 6px;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #1ccc6d !important;
+}
+
+.gdd-medical-record-entry .dropdown-menu {
+  max-width: 100%;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.gdd-medical-record-entry a.dropdown-item {
+  white-space: normal;
+}
+
+.gdd-submit-button-card {
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+}
+
+.gdd-case-accordion td {
+  padding-right: 3rem;
+}
+
+.gdd-checkbox-label:before {
+  background-color: #1ccc6d;
+}
+
+.gdd-checkbox .gdd-checkbox-input:checked ~ .gdd-checkbox-label::before {
+  background-color: #1ccc6d;
+}
+
+.gdd-checkbox {
+  margin-bottom: 0.5rem;
+}
+
+.gdd-alert-fixed {
+  position: fixed;
+  bottom: 5rem;
+  /* left: 1.5rem;  */
+  left: 5%;
+  width: 90%;
+  /* right: 10rem;  */
+  z-index: 9000;
+}
+
+.gdd-eurofins-iframe {
+  width: 100%;
+  height: 80vh;
+}
+
+.gdd-progress-progress-spinner {
+  height: 1.5rem;
+}
+
+div.gdd-settings-hr {
+  width: 100% + 4rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.33);
+  margin-left: -2rem;
+  margin-right: -2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+p.gdd-settings {
+  max-width: 50vw;
+}
+
+.gdd-settings-signature {
+  height: 4rem;
+  border: 1px solid rgba(0, 0, 0, 0.33);
+}
+
+h2 {
+  color: #1ccc6d;
+}
+
+h3 {
+  color: #212529;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: #1ccc6d !important;
+  border-color: #1ccc6d !important;
+}
+
+.btn-outline-primary {
+  color: #1ccc6d !important;
+}
+
+.btn-outline-primary,
+.btn-outline-primary:hover,
+.btn-outline-primary:active,
+.btn-outline-primary:visited,
+.btn-outline-primary:focus {
+  border-color: #1ccc6d !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #1ccc6d !important;
+  color: white !important;
+}
+
+.gdd-patient-menu-button {
+  width: 15vw;
+}
+
+@media screen and (max-aspect-ratio: 10/13) {
+  .gdd-patient-menu-button {
+    width: 75vw;
+    font-size: 5vw !important;
+  }
+
+  .gdd-login-card {
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(136, 136, 136, 1);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(136, 136, 136, 1);
+    box-shadow: 0px 0px 24px 0px rgba(136, 136, 136, 1);
+
+    width: 100%;
+    border-radius: 10vw;
+    margin: 0px;
+    text-align: left;
+    font-family: "Inter";
+  }
+
+  .gdd-login-body {
+    padding: 2vw 8vw !important;
+  }
+
+  .gdd-login-logo {
+    width: 40vw;
+  }
+
+  .gdd-smb-icon {
+    width: 5vw;
+  }
+
+  .gdd-login-footer-sab {
+    background-image: url(/assets/SMB\ cloud\ icon.png);
+    background-repeat: no-repeat;
+    /*background-position: right;*/
+    background-size: 15%;
+    background-position-x: 88%;
+    background-position-y: 30%;
+  }
+
+  .gdd-smb-button {
+    background-color: #8bc641 !important;
+    padding: 0.5vw !important;
+    border: 1px solid #8bc641 !important;
+    background-image: none;
+    font-size: 3vw !important;
+  }
+
+  .gdd-topbar {
+    color: #454545;
+    background: #fff;
+
+    height: 5vh;
+
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+
+    margin-left: -15px;
+
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+
+    padding: 0.8vh;
+  }
+
+  .gdd-topbar-icon {
+    position: relative;
+    color: #1ccc6d;
+    font-size: 2.5vh;
+  }
+
+  .gdd-topbar-logo {
+    position: relative;
+    height: 3vh;
+    vertical-align: top;
+    display: none;
+  }
+
+  .gdd-topbar-icon-black {
+    position: relative;
+    color: #454545;
+    font-size: 3.25vh;
+  }
+  .gdd-topbar-user-info {
+    font-family: "Inter";
+    color: #454545;
+    display: inline-block;
+    float: right;
+    margin-right: 0px;
+    margin-top: 0px;
+    font-size: 2.5vh;
+  }
+
+  .gdd-topbar-user-info-dropdown {
+    border: none !important;
+
+    font-size: 2.5vh;
+    -webkit-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .gdd-topbar-user-info-dropdown-toggle-div {
+    padding-top: 100px;
+  }
+
+  .gdd-topbar-user-info-dropdown-toggle {
+    display: inline-block;
+    padding-left: 0.7rem;
+    padding-right: 0.5rem;
+  }
+
+  .gdd-navbar-open {
+    /* background: #1ccc6d;
+		background: -moz-linear-gradient(45deg,  #1ccc6d 1%, #1ccca2 100%);
+		background: -webkit-linear-gradient(45deg,  #1ccc6d 1%,#1ccca2 100%);
+		background: linear-gradient(45deg,  #1ccc6d 1%,#1ccca2 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ccc6d', endColorstr='#1ccca2',GradientType=1 ); */
+
+    background-color: #fff;
+
+    width: 70vw;
+
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    z-index: 90;
+    padding-top: 5vh;
+  }
+
+  .gdd-navbar-icon {
+    left: 60vw;
+    top: 1vh;
+    position: relative;
+    color: #454545;
+    font-size: 4vh;
+  }
+
+  .gdd-nav {
+    padding-left: 7vw !important;
+  }
+
+  .gdd-nav-link,
+  .gdd-nav-link:hover {
+    color: #454545;
+    font-family: "Inter";
+    font-size: 3vh;
+    border-radius: 0px !important;
+    padding: 4vw !important;
+    /* padding-left: 36px !important; */
+  }
+
+  .gdd-grid-page {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-top: 5vw !important;
+  }
+
+  .gdd-grid-col {
+    padding-top: 2vw;
+    width: 90%;
+    min-width: fit-content;
+    display: inline-block;
+  }
+
+  .gdd-grid-card {
+    -webkit-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+
+    border-radius: 0.25rem;
+    padding: 1vw;
+    margin-top: 3vh;
+  }
+
+  .gdd-grid {
+    font-size: 1.5vh;
+  }
+
+  .gdd-scan-page {
+    margin-top: 5vh;
+    padding: 2vh;
+    width: 100%;
+  }
+
+  .gdd-header-icon {
+    font-size: 3vh;
+  }
+
+  .gdd-scan-page h1,
+  .gdd-grid-page h1 {
+    font-size: 3vh;
+  }
+
+  .gdd-scan-page h2,
+  .gdd-grid-page h2 {
+    margin-top: 1.5vh;
+    font-size: 2.5vh;
+    color: #212529;
+  }
+
+  .gdd-scan-page h3,
+  .gdd-grid-page h2 {
+    margin-top: 1.5vh;
+    font-size: 2.2vh;
+    color: #212529;
+  }
+
+  .gdd-scan-container-row {
+    width: 100%;
+  }
+
+  .gdd-scan-container-col {
+    max-width: 66.67vw !important;
+    width: 66.67vw !important;
+    padding: 0px !important;
+  }
+
+  .gdd-scan-page td {
+    padding: 0.3vh;
+  }
+  .gdd-scan-page table {
+    font-size: 2vh;
+  }
+
+  .gdd-scan-page-text {
+    font-size: 2vh;
+  }
+
+  .gdd-scan-page-testid {
+    font-size: 4vh;
+    font-weight: bold;
+  }
+
+  .gdd-scan-page-testid-label {
+    font-size: 4vh;
+  }
+
+  .gdd-scan-page .btn {
+    width: 100%;
+    font-size: 3vh;
+    margin-top: 2vh;
+    border-radius: 1vh;
+  }
+}
+
+.reg-maindiv {
+  font-family: "Inter", sans-serif;
+  padding: 1rem 2rem;
+
+  border-top: 0.5rem solid;
+
+  border-color: #1ccc6d; /* Old browsers */
+  border-image-source: -moz-linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* FF3.6-15 */
+  border-image-source: -webkit-linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  border-image-source: linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  border-image-slice: 1;
+}
+
+a.reg-main {
+  color: #1ccc6d !important;
+}
+
+.reg-body,
+.reg-body-start {
+  font-family: "Inter", sans-serif;
+  color: #454545;
+}
+
+.reg-body {
+  background-color: #fff;
+}
+
+.reg a {
+  color: #909090;
+  text-decoration: none;
+}
+
+.reg a:hover {
+  color: #909090;
+  text-decoration: none;
+}
+
+.reg-progress-overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.reg-topbar {
+  color: #454545;
+  background: #fff;
+
+  height: 9.5vh;
+
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+
+.reg-progress-card {
+  background-color: #fff;
+  position: relative;
+  display: inline-block;
+  height: 20vh;
+  width: 50vw;
+  left: 25vw;
+  top: 30vh;
+  border-radius: 1vh;
+  text-align: center;
+  padding: 3vh;
+}
+
+.reg-progress-spinner {
+  width: 5vh;
+  margin: 2vh;
+}
+
+.reg-topbar-inner {
+  color: #454545;
+  background: #fff;
+
+  height: 8vh;
+  padding: 3vh 3.5vh 1vh 3.5vh;
+
+  z-index: 100;
+  width: 100%;
+}
+
+.reg-topbar-logo {
+  height: 2vh;
+  opacity: 82%;
+  vertical-align: top;
+}
+
+.reg-topbar-logo-small {
+  display: none;
+}
+
+.reg-topbar-logo-eservices {
+  /*  3 / 3.76  */
+
+  height: 2.5vh;
+  opacity: 82%;
+  vertical-align: top;
+}
+
+div.reg-topbar-logo-pipe {
+  height: 3vh;
+  width: 0.2vh;
+  background-color: #909090;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  margin-top: -0.5vh;
+  margin-bottom: -0.5vh;
+  position: relative;
+  display: inline-block;
+}
+
+.reg-topbar-border {
+  background: #1ccc6d; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ccc6d', endColorstr='#1ccca2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  height: 1.5vh;
+}
+
+.reg-topbar-icon {
+  position: relative;
+  color: #1ccc6d;
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
+
+.reg-topbar-user-info-dropdown-toggle {
+  vertical-align: middle;
+  display: inline-block;
+  padding-left: 0.7rem;
+  padding-right: 0.5rem;
+}
+
+.reg-topbar-user-info {
+  font-family: "Inter";
+  color: #454545;
+  display: inline-block;
+  float: right;
+  vertical-align: top;
+  margin-top: -1vh;
+}
+
+.reg-topbar-user-info-dropdown {
+  border: none !important;
+
+  -webkit-box-shadow: 0px 0px 1vh 0px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 0px 0px 1vh 0px rgba(0, 0, 0, 0.44);
+  box-shadow: 0px 0px 1vh 0px rgba(0, 0, 0, 0.44);
+}
+
+.reg-topbar-user-info-dropdown-toggle {
+}
+
+.reg-topbar-user-info > a,
+.reg-topbar-user-info > a:hover {
+  color: #454545;
+}
+
+.reg-topbar-user-picture {
+  width: 4vh;
+  height: 4vh;
+  border-radius: 2vh;
+  vertical-align: middle;
+
+  -webkit-box-shadow: 0px 0px 0.5vh 0px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 0px 0px 0.5vh 0px rgba(0, 0, 0, 0.44);
+  box-shadow: 0px 0px 0.5vh 0px rgba(0, 0, 0, 0.44);
+}
+
+.reg-file-upload input {
+  padding: 12vh 0px 6vh 30%;
+  text-align: center !important;
+  margin: 0;
+  width: 100% !important;
+  border-radius: 1vh;
+  border-style: dashed;
+  border-width: 0.2vh;
+  border-color: #aaa;
+  text-align: center;
+}
+.reg-file-upload input:focus {
+  outline: 2px dashed #92b0b3;
+  outline-offset: -10px;
+  -webkit-transition: outline-offset 0.15s ease-in-out,
+    background-color 0.15s linear;
+  transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+  border: 1px solid #92b0b3;
+}
+.reg-file-upload {
+  position: relative;
+  display: inline-block;
+  width: 25vw;
+}
+.reg-file-upload:after {
+  pointer-events: none;
+  position: absolute;
+  top: 3vh;
+  left: 0;
+  width: 5vh;
+  right: 0;
+  height: 5vh;
+  content: "";
+  background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
+  display: block;
+  margin: 0 auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.color input {
+  background-color: #f1f1f1;
+}
+.reg-file-upload:before {
+  position: absolute;
+  top: 8vh;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  right: 0;
+  height: 8vh;
+  content: "Dra hit filen eller";
+  display: block;
+  margin: 0 auto;
+  color: #909090;
+  font-weight: 600;
+  text-align: center;
+}
+
+.reg-upload-section-space {
+  display: inline-block;
+  width: 2vw;
+}
+
+.reg-upload-section {
+  display: inline-block;
+  width: calc(25vw - 5vh);
+  height: 25vh;
+
+  background: #1ccc6d20; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #1ccc6d20 1%,
+    #1ccca220 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #1ccc6d20 1%,
+    #1ccca220 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #1ccc6d20 1%,
+    #1ccca220 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ccc6d20', endColorstr='#1ccca220',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  border-radius: 1vh;
+  padding: 2vh;
+
+  vertical-align: top;
+}
+
+.reg-upload-section h3 {
+  font-size: 2vh;
+  font-weight: 600;
+}
+
+img.reg-upload-source {
+  height: 3vh;
+}
+
+.reg-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #909090;
+  background: rgba(255, 255, 255, 1);
+  text-align: center;
+  height: 8vh;
+  vertical-align: middle;
+
+  /*
+	background: rgba(0,0,0, 0);
+	background: -moz-linear-gradient(0deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.1) 7%, rgba(0,0,0,0) 17%, rgba(0,0,0,0) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.1) 7%, rgba(0,0,0,0) 17%, rgba(0,0,0,0) 100%);
+	background: linear-gradient(0deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.1) 7%, rgba(0,0,0,0) 17%, rgba(0,0,0,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+	*/
+}
+
+.reg-footer a {
+  color: #909090;
+  text-decoration: none;
+}
+
+.reg-footer a:hover {
+  color: #909090;
+  text-decoration: none;
+}
+
+.reg-footer-links {
+  display: inline-block;
+  position: absolute;
+  font-size: 1.4vh;
+
+  top: 50%;
+  left: 3vh;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.reg-footer-powered {
+  display: inline-block;
+  position: absolute;
+  font-size: 1.4vh;
+
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.reg-footer-logo {
+  height: 1.4vh;
+  opacity: 82%;
+}
+
+.reg-hr {
+  background: #1ccc6d; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ccc6d', endColorstr='#1ccca2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  position: relative;
+  display: inline-block;
+  width: 16vh;
+  height: 0.5vh;
+
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.cert-val-hr1 {
+  background: #bebebe;
+
+  position: relative;
+  display: inline-block;
+  width: 70vw;
+  height: 0.2vh;
+
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+.cert-val-hr2 {
+  background: #1ccc6d; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ccc6d', endColorstr='#1ccca2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  position: relative;
+  display: inline-block;
+  width: 16vw;
+  height: 0.5vh;
+
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-left: 42vw;
+  margin-right: 42vw;
+}
+.reg-label {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.reg-start {
+  position: relative;
+  display: inline-block;
+
+  left: 17vw;
+  width: 35vw;
+  top: 19vh;
+}
+
+.reg-start-splash {
+  position: absolute;
+  background-image: url(/assets/splash.jpg);
+  background-size: 38vw 50vw;
+  background-position: 0 -6vw;
+  width: 38vw;
+  height: 38vw;
+  top: 50%;
+
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  right: 0;
+  border-top-left-radius: 2vh;
+  border-bottom-left-radius: 2vh;
+}
+
+.reg-step-scrollable {
+}
+
+.reg-back {
+  position: relative;
+  display: inline-block;
+  top: 0px;
+
+  vertical-align: top;
+}
+
+.reg-back-text {
+  display: inline-block;
+  font-size: 3vh;
+  color: #676767;
+  cursor: pointer;
+  vertical-align: middle;
+  bottom: 0px;
+  margin-top: -0.3vh;
+}
+
+.reg-back-arrow {
+  position: absolute;
+  font-size: 5vh;
+  color: #909090;
+  cursor: pointer;
+  vertical-align: bottom;
+  bottom: 0px;
+}
+
+.reg-back-arrow:hover {
+  color: #909090;
+  text-decoration: none;
+}
+
+.reg-step-outer {
+  position: relative;
+  display: inline-block;
+
+  width: 62vw;
+
+  height: 63vh;
+
+  left: 19vw;
+  top: 19vh;
+}
+
+.reg-step {
+  height: 63vh;
+}
+
+.reg-step,
+.reg-step-scrollable {
+  position: relative;
+  display: inline-block;
+
+  /* left: 24vw;
+	top: 19vh; */
+  top: 0px;
+  padding: 5vh;
+
+  width: 100%;
+
+  /* border-radius: 2vh; */
+
+  background-color: #fff;
+
+  /* -webkit-box-shadow: 0px 0px 1vh 0px rgba(0,0,0,0.44);
+    -moz-box-shadow: 0px 0px 1vh 0px rgba(0,0,0,0.44);
+    box-shadow: 0px 0px 1vh 0px rgba(0,0,0,0.44); */
+}
+
+.reg-result-selector {
+  text-align: center;
+}
+
+.reg-start h1 {
+  font-size: 5vh;
+  font-weight: 600;
+  margin-top: 5vh;
+}
+
+.reg-step h1 {
+  font-size: 3vh;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.reg-step p {
+  font-size: 1.8vh;
+  margin-bottom: 1vh;
+}
+
+.reg-start p {
+  font-size: 2.5vh;
+  margin-bottom: 1vh;
+}
+
+.reg-start a {
+  color: #676767;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.5vh;
+}
+
+.reg-step a {
+  color: #676767;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.5vh;
+}
+
+.reg-start a:hover {
+  color: #676767;
+  text-decoration: none;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.reg-link-icon {
+  font-size: 4.5vh;
+  vertical-align: middle;
+  margin-left: -0.7vh;
+}
+
+.reg-sign-in-button {
+  -webkit-box-shadow: 0px 0px 0.5vh 0px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0px 0px 0.5vh 0px rgba(0, 0, 0, 0.22);
+  box-shadow: 0px 0px 0.5vh 0px rgba(0, 0, 0, 0.22);
+
+  margin-top: 2vh;
+  margin-right: 2vh;
+  padding: 0 2vh;
+  border-radius: 1vh;
+  border: 1px solid transparent;
+  font-size: 2vh;
+  font-weight: 500;
+  font-family: Roboto, sans-serif;
+}
+
+.google-sign-in-button {
+  background-color: rgb(255, 255, 255);
+  display: inline-flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.bankid-sign-in-button {
+  background-color: #183e4f;
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+}
+
+.bankid-sign-in-button-secondary {
+  background-color: #fff;
+  display: inline-flex;
+  align-items: center;
+  color: #183e4f;
+}
+
+.reg-sign-in-button div {
+  margin-right: 1vh;
+  padding: 1vh;
+  border-radius: 1vh;
+}
+
+.reg-sign-in-button span {
+  padding: 1vh 1vh 1vh 0px;
+  font-weight: 500;
+}
+
+.reg-sign-in-button img {
+  width: 3vh;
+  height: 3vh;
+}
+
+button.reg {
+  height: 5vh;
+  width: 25vw;
+  border-radius: 1vh;
+  font-size: 2vh;
+  margin: 1vh;
+
+  background-color: #fff;
+  background: #fff;
+  color: #454545;
+
+  border: 1px solid #fff !important;
+
+  -webkit-box-shadow: 0px 0px 0.5vh 0px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0px 0px 0.5vh 0px rgba(0, 0, 0, 0.22);
+  box-shadow: 0px 0px 0.5vh 0px rgba(0, 0, 0, 0.22);
+}
+
+button.reg:hover {
+  color: #fff;
+
+  border: 1px solid #1ccc6d !important;
+
+  background: #1ccc6d; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #1ccc6d 1%,
+    #1ccca2 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ccc6d', endColorstr='#1ccca2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.reg-app-links {
+  padding-top: 5vh;
+  display: block;
+}
+
+.reg-app-link-badge {
+  height: 3rem;
+  margin-right: 3rem;
+}
+
+.reg-main-menu-item-text {
+  font-size: 1.5rem;
+}
+
+.reg-body .btn {
+  margin-bottom: 2rem;
+}
+
+.reg-cert-list-item-icon {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  border-radius: 1.5rem;
+  background-color: #ddd;
+  color: #aaa;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.reg-cert-list-item {
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+
+  -webkit-box-shadow: 0px 0px 0.5vh 0px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0px 0px 0.5vh 0px rgba(0, 0, 0, 0.22);
+  box-shadow: 0px 0px 0.5vh 0px rgba(0, 0, 0, 0.22);
+}
+
+a.reg-menu-item:hover {
+  text-decoration: none;
+  color: #676767;
+}
+
+.reg-cert-list-item-arrow {
+  color: #1ccc6d;
+  font-size: 2rem;
+  padding-top: 0rem;
+}
+
+.reg-cookie-consent {
+  font-size: 1rem;
+}
+
+/* @media screen and (max-width: 992px) { */
+@media screen and (max-aspect-ratio: 10/13) {
+  .modal-dialog {
+    width: 75vw !important;
+    max-width: 75vw !important;
+  }
+
+  .modal-body p {
+    font-size: 2.5vh !important;
+  }
+
+  .modal-title {
+    font-size: 3vh !important;
+  }
+
+  .reg-body {
+    background-color: #fff;
+  }
+
+  .reg-step h3 {
+    font-size: 5vw !important;
+  }
+
+  .reg-step .form-label {
+    font-size: 3vw !important;
+  }
+
+  .reg-step .container {
+    margin: 0px !important;
+  }
+
+  .reg-start .form-label {
+    font-size: 2.5vh !important;
+  }
+
+  .reg-step .btn {
+    font-size: 3vw !important;
+  }
+
+  .reg-body .btn {
+    font-size: 2vh !important;
+    margin-bottom: 3vw;
+  }
+
+  .reg-step input {
+    font-size: 2vh !important;
+  }
+
+  .reg-start input {
+    font-size: 3vh !important;
+  }
+
+  .reg-step .gdd-valid-icon {
+    font-size: 3vw !important;
+  }
+  .reg-step .gdd-invalid-icon {
+    font-size: 3vw !important;
+  }
+
+  .reg-start-splash {
+    display: none;
+  }
+
+  .reg-start {
+    position: relative;
+    display: inline-block;
+
+    left: 0px;
+    width: 100vw;
+    top: 15vh;
+    padding: 7vw;
+  }
+
+  .reg-topbar-inner {
+    padding-left: 2vh;
+    padding-right: 2vh;
+  }
+
+  .reg-topbar-logo-small {
+    display: inline;
+    height: 3vh;
+    opacity: 82%;
+    vertical-align: top;
+    margin: -0.5vh;
+  }
+
+  .reg-topbar-logo {
+    display: none;
+  }
+
+  .reg-topbar-user-info {
+    font-size: 1.5vh;
+  }
+
+  .reg-topbar-icon {
+    font-size: 3vh;
+  }
+
+  .reg-topbar-user-info-dropdown-toggle {
+    margin-left: 1vh;
+    margin-right: 1vh;
+  }
+
+  .dropdown-menu {
+    font-size: 1.5vh !important;
+  }
+
+  .reg-step-outer {
+    display: block;
+    width: 100vw;
+    height: 75vh;
+    left: 0vw;
+    top: 10vh;
+  }
+
+  h1.reg {
+    padding-left: 7vw;
+    padding-right: 7vw;
+    padding-top: 3vw;
+    font-size: 7vw !important;
+  }
+
+  .reg-step {
+    background-color: transparent;
+  }
+
+  .reg-back {
+    display: inline-block;
+    height: 3vh;
+    top: 0px;
+    padding: 7vw;
+    vertical-align: top;
+  }
+
+  .reg-back-arrow-mobile {
+    display: inline-block;
+    position: relative;
+    font-size: 4.5vh;
+    color: #676767;
+    cursor: pointer;
+    vertical-align: middle;
+    bottom: 0px;
+  }
+
+  .reg-back-text {
+    display: inline-block;
+    font-size: 3vh;
+    color: #676767;
+    cursor: pointer;
+    vertical-align: middle;
+    bottom: 0px;
+    margin-top: -0.4vh;
+  }
+
+  .reg-step {
+    padding: 7vw;
+    height: 75vh;
+    width: 100vw;
+
+    border-radius: 0px;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .reg-start p {
+    font-size: 2.5vh;
+  }
+
+  .reg-start h1 {
+    font-size: 8vw;
+    font-weight: 600;
+    margin-top: 3vh;
+  }
+
+  .reg-start-button {
+    text-align: center;
+    width: 100%;
+  }
+
+  .reg-step h1 {
+    font-size: 3vh;
+    font-weight: 600;
+    margin: 0px;
+  }
+
+  .reg-footer {
+    background-color: #fff;
+    height: auto;
+    padding-bottom: 1vh;
+  }
+
+  .reg-footer-links {
+    position: relative;
+    display: block;
+    width: 100%;
+    -ms-transform: none;
+    transform: none;
+    top: auto;
+    left: auto;
+  }
+
+  .reg-footer-powered {
+    position: relative;
+    display: block;
+    width: 100%;
+    -ms-transform: none;
+    transform: none;
+    top: auto;
+    left: auto;
+  }
+
+  button.reg {
+    height: 7vh;
+    width: 50vw;
+    border-radius: 1vh;
+    font-size: 2vh;
+    margin: 2vh;
+  }
+
+  .reg-file-upload {
+    position: relative;
+    display: inline-block;
+    width: 50vw;
+    height: 40vh;
+  }
+
+  .reg-file-upload:after {
+    pointer-events: none;
+    top: 3vh;
+    left: 0;
+    width: 5vh;
+    right: 0;
+    height: 5vh;
+    content: "";
+    background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
+    display: block;
+    margin: 0 auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .reg-file-upload:before {
+    top: 8vh;
+    width: 100%;
+    height: 8vh;
+    font-size: 3vw;
+    content: "";
+  }
+
+  .reg-file-upload input {
+    padding: 12vh 0px 3vh 10%;
+    font-size: 3vw;
+  }
+
+  .reg-upload-section {
+    display: block;
+    height: 20vh;
+    width: 100%;
+
+    border-radius: 1vh;
+    padding: 2vw;
+  }
+
+  .reg-upload-section-space {
+    display: block;
+    height: 5vw;
+  }
+
+  .reg-upload-section p {
+    font-size: 1.5vh;
+  }
+
+  .reg-progress-card {
+    height: 20vh;
+    width: 66vw;
+    left: 17vw;
+    border-radius: 2vh;
+    text-align: center;
+    padding: 3vh;
+  }
+
+  .reg-progress-card h1 {
+    font-size: 3vh;
+  }
+
+  .reg-app-links {
+    padding-top: 5vh;
+    display: block;
+    text-align: center;
+  }
+
+  .reg-app-link-badge {
+    height: 11vw;
+    margin: 3vw;
+  }
+
+  .reg-main-menu-item-text {
+    font-size: 2vh !important;
+  }
+
+  .reg-cert-list-item-icon {
+    width: 9vw;
+    height: 9vw;
+    font-size: 4.5vw;
+    border-radius: 4.5vw;
+    padding: 1vw;
+  }
+
+  .reg-cert-list-item {
+    padding: 3vw 6vw;
+    margin-bottom: 6vw;
+    border-radius: 1.5vw;
+
+    font-size: 3vw;
+  }
+
+  .reg-cert-list-item-arrow {
+    font-size: 6vw;
+    padding-top: 0vw;
+  }
+
+  .reg-body-text {
+    margin-top: 6vw;
+    font-size: 4vw;
+  }
+
+  .reg-cookie-consent {
+    font-size: 3vw;
+  }
+}
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle,
+.react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle,
+.react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-year-read-view--down-arrow,
+.react-datepicker__year-read-view--down-arrow {
+  margin-left: -8px;
+  position: absolute;
+}
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle,
+.react-datepicker-popper[data-placement^="bottom"]
+  .react-datepicker__triangle:before,
+.react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle,
+.react-datepicker-popper[data-placement^="top"]
+  .react-datepicker__triangle:before,
+.react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-read-view--down-arrow:before,
+.react-datepicker__month-year-read-view--down-arrow,
+.react-datepicker__month-year-read-view--down-arrow:before,
+.react-datepicker__year-read-view--down-arrow,
+.react-datepicker__year-read-view--down-arrow:before {
+  box-sizing: content-box;
+  position: absolute;
+  border: 8px solid transparent;
+  height: 0;
+  width: 1px;
+}
+
+.react-datepicker-popper[data-placement^="bottom"]
+  .react-datepicker__triangle:before,
+.react-datepicker-popper[data-placement^="top"]
+  .react-datepicker__triangle:before,
+.react-datepicker__month-read-view--down-arrow:before,
+.react-datepicker__month-year-read-view--down-arrow:before,
+.react-datepicker__year-read-view--down-arrow:before {
+  content: "";
+  z-index: -1;
+  border-width: 8px;
+  left: -8px;
+  border-bottom-color: #aeaeae;
+}
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle {
+  top: 0;
+  margin-top: -8px;
+}
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle,
+.react-datepicker-popper[data-placement^="bottom"]
+  .react-datepicker__triangle:before {
+  border-top: none;
+  border-bottom-color: #f0f0f0;
+}
+
+.react-datepicker-popper[data-placement^="bottom"]
+  .react-datepicker__triangle:before {
+  top: -1px;
+  border-bottom-color: #aeaeae;
+}
+
+.react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle,
+.react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-year-read-view--down-arrow,
+.react-datepicker__year-read-view--down-arrow {
+  bottom: 0;
+  margin-bottom: -8px;
+}
+
+.react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle,
+.react-datepicker-popper[data-placement^="top"]
+  .react-datepicker__triangle:before,
+.react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-read-view--down-arrow:before,
+.react-datepicker__month-year-read-view--down-arrow,
+.react-datepicker__month-year-read-view--down-arrow:before,
+.react-datepicker__year-read-view--down-arrow,
+.react-datepicker__year-read-view--down-arrow:before {
+  border-bottom: none;
+  border-top-color: #fff;
+}
+
+.react-datepicker-popper[data-placement^="top"]
+  .react-datepicker__triangle:before,
+.react-datepicker__month-read-view--down-arrow:before,
+.react-datepicker__month-year-read-view--down-arrow:before,
+.react-datepicker__year-read-view--down-arrow:before {
+  bottom: -1px;
+  border-top-color: #aeaeae;
+}
+
+.react-datepicker-wrapper {
+  display: inline-block;
+  padding: 0;
+  border: 0;
+}
+
+.react-datepicker {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #aeaeae;
+  border-radius: 0.3rem;
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+.react-datepicker--time-only .react-datepicker__triangle {
+  left: 35px;
+}
+
+.react-datepicker--time-only .react-datepicker__time-container {
+  border-left: 0;
+}
+
+.react-datepicker--time-only .react-datepicker__time,
+.react-datepicker--time-only .react-datepicker__time-box {
+  border-radius: 0.3rem;
+}
+
+.react-datepicker__triangle {
+  position: absolute;
+  left: 50px;
+}
+
+.react-datepicker-popper {
+  z-index: 1;
+}
+
+.react-datepicker-popper[data-placement^="bottom"] {
+  margin-top: 10px;
+}
+
+.react-datepicker-popper[data-placement="bottom-end"]
+  .react-datepicker__triangle,
+.react-datepicker-popper[data-placement="top-end"] .react-datepicker__triangle {
+  left: auto;
+  right: 50px;
+}
+
+.react-datepicker-popper[data-placement^="top"] {
+  margin-bottom: 10px;
+}
+
+.react-datepicker-popper[data-placement^="right"] {
+  margin-left: 8px;
+}
+
+.react-datepicker-popper[data-placement^="right"] .react-datepicker__triangle {
+  left: auto;
+  right: 42px;
+}
+
+.react-datepicker-popper[data-placement^="left"] {
+  margin-right: 8px;
+}
+
+.react-datepicker-popper[data-placement^="left"] .react-datepicker__triangle {
+  left: 42px;
+  right: auto;
+}
+
+.react-datepicker__header {
+  text-align: center;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #aeaeae;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+  padding-top: 8px;
+  position: relative;
+}
+
+.react-datepicker__header--time {
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.react-datepicker__month-dropdown-container--scroll,
+.react-datepicker__month-dropdown-container--select,
+.react-datepicker__month-year-dropdown-container--scroll,
+.react-datepicker__month-year-dropdown-container--select,
+.react-datepicker__year-dropdown-container--scroll,
+.react-datepicker__year-dropdown-container--select {
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.react-datepicker-time__header,
+.react-datepicker-year-header,
+.react-datepicker__current-month {
+  margin-top: 0;
+  color: #000;
+  font-weight: 700;
+  font-size: 0.944rem;
+}
+
+.react-datepicker-time__header {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.react-datepicker__navigation {
+  background: none;
+  line-height: 1.7rem;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  width: 0;
+  padding: 0;
+  border: 0.45rem solid transparent;
+  z-index: 1;
+  height: 10px;
+  width: 10px;
+  text-indent: -999em;
+  overflow: hidden;
+}
+
+.react-datepicker__navigation--previous {
+  left: 10px;
+  border-right-color: #ccc;
+}
+
+.react-datepicker__navigation--previous:hover {
+  border-right-color: #b3b3b3;
+}
+
+.react-datepicker__navigation--previous--disabled,
+.react-datepicker__navigation--previous--disabled:hover {
+  border-right-color: #e6e6e6;
+  cursor: default;
+}
+
+.react-datepicker__navigation--next {
+  right: 10px;
+  border-left-color: #ccc;
+}
+
+.react-datepicker__navigation--next--with-time:not(.react-datepicker__navigation--next--with-today-button) {
+  right: 80px;
+}
+
+.react-datepicker__navigation--next:hover {
+  border-left-color: #b3b3b3;
+}
+
+.react-datepicker__navigation--next--disabled,
+.react-datepicker__navigation--next--disabled:hover {
+  border-left-color: #e6e6e6;
+  cursor: default;
+}
+
+.react-datepicker__navigation--years {
+  position: relative;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.react-datepicker__navigation--years-previous {
+  top: 4px;
+  border-top-color: #ccc;
+}
+
+.react-datepicker__navigation--years-previous:hover {
+  border-top-color: #b3b3b3;
+}
+
+.react-datepicker__navigation--years-upcoming {
+  top: -4px;
+  border-bottom-color: #ccc;
+}
+
+.react-datepicker__navigation--years-upcoming:hover {
+  border-bottom-color: #b3b3b3;
+}
+
+.react-datepicker__month-container {
+  float: left;
+}
+
+.react-datepicker__year {
+  margin: 0.4rem;
+  text-align: center;
+}
+
+.react-datepicker__year-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 180px;
+}
+
+.react-datepicker__year .react-datepicker__year-text {
+  display: inline-block;
+  width: 4rem;
+  margin: 2px;
+}
+
+.react-datepicker__month {
+  margin: 0.4rem;
+  text-align: center;
+}
+
+.react-datepicker__month .react-datepicker__month-text,
+.react-datepicker__month .react-datepicker__quarter-text {
+  display: inline-block;
+  width: 4rem;
+  margin: 2px;
+}
+
+.react-datepicker__input-time-container {
+  clear: both;
+  width: 100%;
+  float: left;
+  margin: 5px 0 10px 15px;
+  text-align: left;
+}
+
+.react-datepicker__input-time-container .react-datepicker-time__caption,
+.react-datepicker__input-time-container
+  .react-datepicker-time__input-container {
+  display: inline-block;
+}
+
+.react-datepicker__input-time-container
+  .react-datepicker-time__input-container
+  .react-datepicker-time__input {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.react-datepicker__input-time-container
+  .react-datepicker-time__input-container
+  .react-datepicker-time__input
+  input {
+  width: 85px;
+}
+
+.react-datepicker__input-time-container
+  .react-datepicker-time__input-container
+  .react-datepicker-time__input
+  input[type="time"]::-webkit-inner-spin-button,
+.react-datepicker__input-time-container
+  .react-datepicker-time__input-container
+  .react-datepicker-time__input
+  input[type="time"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.react-datepicker__input-time-container
+  .react-datepicker-time__input-container
+  .react-datepicker-time__input
+  input[type="time"] {
+  -moz-appearance: textfield;
+}
+
+.react-datepicker__input-time-container
+  .react-datepicker-time__input-container
+  .react-datepicker-time__delimiter {
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.react-datepicker__time-container {
+  float: right;
+  border-left: 1px solid #aeaeae;
+  width: 85px;
+}
+
+.react-datepicker__time-container--with-today-button {
+  display: inline;
+  border: 1px solid #aeaeae;
+  border-radius: 0.3rem;
+  position: absolute;
+  right: -72px;
+  top: 0;
+}
+
+.react-datepicker__time-container .react-datepicker__time {
+  position: relative;
+  background: #fff;
+  border-bottom-right-radius: 0.3rem;
+}
+
+.react-datepicker__time-container
+  .react-datepicker__time
+  .react-datepicker__time-box {
+  width: 85px;
+  overflow-x: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.react-datepicker__time-container
+  .react-datepicker__time
+  .react-datepicker__time-box
+  ul.react-datepicker__time-list {
+  list-style: none;
+  margin: 0;
+  height: calc(195px + 0.85rem);
+  overflow-y: scroll;
+  padding-right: 0;
+  padding-left: 0;
+  width: 100%;
+  box-sizing: content-box;
+}
+
+.react-datepicker__time-container
+  .react-datepicker__time
+  .react-datepicker__time-box
+  ul.react-datepicker__time-list
+  li.react-datepicker__time-list-item {
+  height: 30px;
+  padding: 5px 10px;
+  white-space: nowrap;
+}
+
+.react-datepicker__time-container
+  .react-datepicker__time
+  .react-datepicker__time-box
+  ul.react-datepicker__time-list
+  li.react-datepicker__time-list-item:hover {
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+.react-datepicker__time-container
+  .react-datepicker__time
+  .react-datepicker__time-box
+  ul.react-datepicker__time-list
+  li.react-datepicker__time-list-item--selected {
+  background-color: #216ba5;
+  color: #fff;
+  font-weight: 700;
+}
+
+.react-datepicker__time-container
+  .react-datepicker__time
+  .react-datepicker__time-box
+  ul.react-datepicker__time-list
+  li.react-datepicker__time-list-item--selected:hover {
+  background-color: #216ba5;
+}
+
+.react-datepicker__time-container
+  .react-datepicker__time
+  .react-datepicker__time-box
+  ul.react-datepicker__time-list
+  li.react-datepicker__time-list-item--disabled {
+  color: #ccc;
+}
+
+.react-datepicker__time-container
+  .react-datepicker__time
+  .react-datepicker__time-box
+  ul.react-datepicker__time-list
+  li.react-datepicker__time-list-item--disabled:hover {
+  cursor: default;
+  background-color: transparent;
+}
+
+.react-datepicker__week-number {
+  color: #ccc;
+  display: inline-block;
+  width: 1.7rem;
+  line-height: 1.7rem;
+  text-align: center;
+  margin: 0.166rem;
+}
+
+.react-datepicker__week-number.react-datepicker__week-number--clickable {
+  cursor: pointer;
+}
+
+.react-datepicker__week-number.react-datepicker__week-number--clickable:hover {
+  border-radius: 0.3rem;
+  background-color: #f0f0f0;
+}
+
+.react-datepicker__day-names,
+.react-datepicker__week {
+  white-space: nowrap;
+}
+
+.react-datepicker__day,
+.react-datepicker__day-name,
+.react-datepicker__time-name {
+  color: #000;
+  display: inline-block;
+  width: 1.7rem;
+  line-height: 1.7rem;
+  text-align: center;
+  margin: 0.166rem;
+}
+
+.react-datepicker__month--in-range,
+.react-datepicker__month--in-selecting-range,
+.react-datepicker__month--selected,
+.react-datepicker__quarter--in-range,
+.react-datepicker__quarter--in-selecting-range,
+.react-datepicker__quarter--selected {
+  border-radius: 0.3rem;
+  background-color: #216ba5;
+  color: #fff;
+}
+
+.react-datepicker__month--in-range:hover,
+.react-datepicker__month--in-selecting-range:hover,
+.react-datepicker__month--selected:hover,
+.react-datepicker__quarter--in-range:hover,
+.react-datepicker__quarter--in-selecting-range:hover,
+.react-datepicker__quarter--selected:hover {
+  background-color: #1d5d90;
+}
+
+.react-datepicker__month--disabled,
+.react-datepicker__quarter--disabled {
+  color: #ccc;
+  pointer-events: none;
+}
+
+.react-datepicker__month--disabled:hover,
+.react-datepicker__quarter--disabled:hover {
+  cursor: default;
+  background-color: transparent;
+}
+
+.react-datepicker__day,
+.react-datepicker__month-text,
+.react-datepicker__quarter-text,
+.react-datepicker__year-text {
+  cursor: pointer;
+}
+
+.react-datepicker__day:hover,
+.react-datepicker__month-text:hover,
+.react-datepicker__quarter-text:hover,
+.react-datepicker__year-text:hover {
+  border-radius: 0.3rem;
+  background-color: #f0f0f0;
+}
+
+.react-datepicker__day--today,
+.react-datepicker__month-text--today,
+.react-datepicker__quarter-text--today,
+.react-datepicker__year-text--today {
+  font-weight: 700;
+}
+
+.react-datepicker__day--highlighted,
+.react-datepicker__month-text--highlighted,
+.react-datepicker__quarter-text--highlighted,
+.react-datepicker__year-text--highlighted {
+  border-radius: 0.3rem;
+  background-color: #3dcc4a;
+  color: #fff;
+}
+
+.react-datepicker__day--highlighted:hover,
+.react-datepicker__month-text--highlighted:hover,
+.react-datepicker__quarter-text--highlighted:hover,
+.react-datepicker__year-text--highlighted:hover {
+  background-color: #32be3f;
+}
+
+.react-datepicker__day--highlighted-custom-1,
+.react-datepicker__month-text--highlighted-custom-1,
+.react-datepicker__quarter-text--highlighted-custom-1,
+.react-datepicker__year-text--highlighted-custom-1 {
+  color: #f0f;
+}
+
+.react-datepicker__day--highlighted-custom-2,
+.react-datepicker__month-text--highlighted-custom-2,
+.react-datepicker__quarter-text--highlighted-custom-2,
+.react-datepicker__year-text--highlighted-custom-2 {
+  color: green;
+}
+
+.react-datepicker__day--in-range,
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__day--selected,
+.react-datepicker__month-text--in-range,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__month-text--selected,
+.react-datepicker__quarter-text--in-range,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__quarter-text--selected,
+.react-datepicker__year-text--in-range,
+.react-datepicker__year-text--in-selecting-range,
+.react-datepicker__year-text--selected {
+  border-radius: 0.3rem;
+  background-color: #216ba5;
+  color: #fff;
+}
+
+.react-datepicker__day--in-range:hover,
+.react-datepicker__day--in-selecting-range:hover,
+.react-datepicker__day--selected:hover,
+.react-datepicker__month-text--in-range:hover,
+.react-datepicker__month-text--in-selecting-range:hover,
+.react-datepicker__month-text--selected:hover,
+.react-datepicker__quarter-text--in-range:hover,
+.react-datepicker__quarter-text--in-selecting-range:hover,
+.react-datepicker__quarter-text--selected:hover,
+.react-datepicker__year-text--in-range:hover,
+.react-datepicker__year-text--in-selecting-range:hover,
+.react-datepicker__year-text--selected:hover {
+  background-color: #1d5d90;
+}
+
+.react-datepicker__day--keyboard-selected,
+.react-datepicker__month-text--keyboard-selected,
+.react-datepicker__quarter-text--keyboard-selected,
+.react-datepicker__year-text--keyboard-selected {
+  border-radius: 0.3rem;
+  background-color: #2a87d0;
+  color: #fff;
+}
+
+.react-datepicker__day--keyboard-selected:hover,
+.react-datepicker__month-text--keyboard-selected:hover,
+.react-datepicker__quarter-text--keyboard-selected:hover,
+.react-datepicker__year-text--keyboard-selected:hover {
+  background-color: #1d5d90;
+}
+
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__year-text--in-selecting-range {
+  background-color: rgba(33, 107, 165, 0.5);
+}
+
+.react-datepicker__month--selecting-range .react-datepicker__day--in-range,
+.react-datepicker__month--selecting-range
+  .react-datepicker__month-text--in-range,
+.react-datepicker__month--selecting-range
+  .react-datepicker__quarter-text--in-range,
+.react-datepicker__month--selecting-range
+  .react-datepicker__year-text--in-range {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.react-datepicker__day--disabled,
+.react-datepicker__month-text--disabled,
+.react-datepicker__quarter-text--disabled,
+.react-datepicker__year-text--disabled {
+  cursor: default;
+  color: #ccc;
+}
+
+.react-datepicker__day--disabled:hover,
+.react-datepicker__month-text--disabled:hover,
+.react-datepicker__quarter-text--disabled:hover,
+.react-datepicker__year-text--disabled:hover {
+  background-color: transparent;
+}
+
+.react-datepicker__month-text.react-datepicker__month--in-range:hover,
+.react-datepicker__month-text.react-datepicker__month--selected:hover,
+.react-datepicker__month-text.react-datepicker__quarter--in-range:hover,
+.react-datepicker__month-text.react-datepicker__quarter--selected:hover,
+.react-datepicker__quarter-text.react-datepicker__month--in-range:hover,
+.react-datepicker__quarter-text.react-datepicker__month--selected:hover,
+.react-datepicker__quarter-text.react-datepicker__quarter--in-range:hover,
+.react-datepicker__quarter-text.react-datepicker__quarter--selected:hover {
+  background-color: #216ba5;
+}
+
+.react-datepicker__month-text:hover,
+.react-datepicker__quarter-text:hover {
+  background-color: #f0f0f0;
+}
+
+.react-datepicker__input-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.react-datepicker__month-read-view,
+.react-datepicker__month-year-read-view,
+.react-datepicker__year-read-view {
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+}
+
+.react-datepicker__month-read-view:hover,
+.react-datepicker__month-year-read-view:hover,
+.react-datepicker__year-read-view:hover {
+  cursor: pointer;
+}
+
+.react-datepicker__month-read-view:hover
+  .react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-read-view:hover
+  .react-datepicker__year-read-view--down-arrow,
+.react-datepicker__month-year-read-view:hover
+  .react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-year-read-view:hover
+  .react-datepicker__year-read-view--down-arrow,
+.react-datepicker__year-read-view:hover
+  .react-datepicker__month-read-view--down-arrow,
+.react-datepicker__year-read-view:hover
+  .react-datepicker__year-read-view--down-arrow {
+  border-top-color: #b3b3b3;
+}
+
+.react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-year-read-view--down-arrow,
+.react-datepicker__year-read-view--down-arrow {
+  border-top-color: #ccc;
+  float: right;
+  margin-left: 20px;
+  top: 8px;
+  position: relative;
+  border-width: 0.45rem;
+}
+
+.react-datepicker__month-dropdown,
+.react-datepicker__month-year-dropdown,
+.react-datepicker__year-dropdown {
+  background-color: #f0f0f0;
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  top: 30px;
+  z-index: 1;
+  text-align: center;
+  border-radius: 0.3rem;
+  border: 1px solid #aeaeae;
+}
+
+.react-datepicker__month-dropdown:hover,
+.react-datepicker__month-year-dropdown:hover,
+.react-datepicker__year-dropdown:hover {
+  cursor: pointer;
+}
+
+.react-datepicker__month-dropdown--scrollable,
+.react-datepicker__month-year-dropdown--scrollable,
+.react-datepicker__year-dropdown--scrollable {
+  height: 150px;
+  overflow-y: scroll;
+}
+
+.react-datepicker__month-option,
+.react-datepicker__month-year-option,
+.react-datepicker__year-option {
+  line-height: 20px;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.react-datepicker__month-option:first-of-type,
+.react-datepicker__month-year-option:first-of-type,
+.react-datepicker__year-option:first-of-type {
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
+
+.react-datepicker__month-option:last-of-type,
+.react-datepicker__month-year-option:last-of-type,
+.react-datepicker__year-option:last-of-type {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+
+.react-datepicker__month-option:hover,
+.react-datepicker__month-year-option:hover,
+.react-datepicker__year-option:hover {
+  background-color: #ccc;
+}
+
+.react-datepicker__month-option:hover
+  .react-datepicker__navigation--years-upcoming,
+.react-datepicker__month-year-option:hover
+  .react-datepicker__navigation--years-upcoming,
+.react-datepicker__year-option:hover
+  .react-datepicker__navigation--years-upcoming {
+  border-bottom-color: #b3b3b3;
+}
+
+.react-datepicker__month-option:hover
+  .react-datepicker__navigation--years-previous,
+.react-datepicker__month-year-option:hover
+  .react-datepicker__navigation--years-previous,
+.react-datepicker__year-option:hover
+  .react-datepicker__navigation--years-previous {
+  border-top-color: #b3b3b3;
+}
+
+.react-datepicker__month-option--selected,
+.react-datepicker__month-year-option--selected,
+.react-datepicker__year-option--selected {
+  position: absolute;
+  left: 15px;
+}
+
+.react-datepicker__close-icon {
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  padding: 0 6px 0 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.react-datepicker__close-icon:after {
+  cursor: pointer;
+  background-color: #216ba5;
+  color: #fff;
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+  padding: 2px;
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  content: "\00d7";
+}
+
+.react-datepicker__today-button {
+  background: #f0f0f0;
+  border-top: 1px solid #aeaeae;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 700;
+  padding: 5px 0;
+  clear: left;
+}
+
+.react-datepicker__portal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  left: 0;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  z-index: 2147483647;
+}
+
+.react-datepicker__portal .react-datepicker__day,
+.react-datepicker__portal .react-datepicker__day-name,
+.react-datepicker__portal .react-datepicker__time-name {
+  width: 3rem;
+  line-height: 3rem;
+}
+
+@media (max-height: 550px), (max-width: 400px) {
+  .react-datepicker__portal .react-datepicker__day,
+  .react-datepicker__portal .react-datepicker__day-name,
+  .react-datepicker__portal .react-datepicker__time-name {
+    width: 2rem;
+    line-height: 2rem;
+  }
+}
+
+.react-datepicker__portal .react-datepicker-time__header,
+.react-datepicker__portal .react-datepicker__current-month {
+  font-size: 1.44rem;
+}
+
+.react-datepicker__portal .react-datepicker__navigation {
+  border: 0.81rem solid transparent;
+}
+
+.react-datepicker__portal .react-datepicker__navigation--previous {
+  border-right-color: #ccc;
+}
+
+.react-datepicker__portal .react-datepicker__navigation--previous:hover {
+  border-right-color: #b3b3b3;
+}
+
+.react-datepicker__portal .react-datepicker__navigation--previous--disabled,
+.react-datepicker__portal
+  .react-datepicker__navigation--previous--disabled:hover {
+  border-right-color: #e6e6e6;
+  cursor: default;
+}
+
+.react-datepicker__portal .react-datepicker__navigation--next {
+  border-left-color: #ccc;
+}
+
+.react-datepicker__portal .react-datepicker__navigation--next:hover {
+  border-left-color: #b3b3b3;
+}
+
+.react-datepicker__portal .react-datepicker__navigation--next--disabled,
+.react-datepicker__portal .react-datepicker__navigation--next--disabled:hover {
+  border-left-color: #e6e6e6;
+  cursor: default;
+}
